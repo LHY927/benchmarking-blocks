@@ -1,5 +1,7 @@
 def benchmark
   # Your benchmarking code goes here.
+  result_from_block = yield
+  return result_from_block
 end
  
 # Be careful, pasting this into IRB will take a long time to print.
